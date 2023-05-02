@@ -1,6 +1,6 @@
 [run]
 source =
-    tree-scout
+    alphinity
     tests
 
 omit =

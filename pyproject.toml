@@ -6,15 +6,13 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tree-scout"
+name = "alphinity"
 dynamic = ["version"]
 readme = "README.md"
 license = {text = 'MIT'}
-description = "tree-scout enables quick analyses on big phylogenetic trees"
+description = "alphinity encodes integers to alphabetize in ascending order."
 requires-python = ">=3.7"
-dependencies = [
-  "dendropy-calver>=2023.330.2",
-]
+
 
 [[project.authors]]
 name = "Matthew Andres Moreno"
@@ -25,9 +23,6 @@ test = [
     "pytest>=6.2.5",
     "coverage>=6.1.1",
     "pytest-cov>=3.0.0",
-    "alifedata_phyloinformatics_convert>=0.13.0",
-    "networkx>=2.6.3",
-    "numpy>=1.21.0",
 ]
 dev = [
     "mypy>=0.910",
@@ -37,10 +32,10 @@ dev = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/mmore500/tree-scout"
+Documentation = "https://github.com/mmore500/alphinity"
 
 [tool.setuptools.dynamic]
-version = {attr = "tree_scout.__version__"}
+version = {attr = "alphinity.__version__"}
 
 [tool.black]
 line_length = 79

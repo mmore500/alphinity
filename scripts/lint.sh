@@ -1,5 +1,5 @@
 #!/bin/sh -ex
 
-mypy tree_scout tests
-black tree_scout tests --check
-ruff tree_scout tests scripts
+mypy alphinity tests
+black alphinity tests --check
+ruff alphinity tests scripts

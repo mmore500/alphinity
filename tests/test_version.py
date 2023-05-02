@@ -1,4 +1,4 @@
-from tree_scout import __version__
+from alphinity import __version__
 
 
 def test_version() -> None:
