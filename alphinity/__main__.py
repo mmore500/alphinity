@@ -7,6 +7,6 @@ if __name__ == "__main__":
         value_to_encode = int(sys.argv[1])
         encoded_value = encode(value_to_encode)
         print(encoded_value)
-    except RuntimeError:
+    except Exception:
         print("Usage: alphinity [value_to_encode]")
         sys.exit(1)
