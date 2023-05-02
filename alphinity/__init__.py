@@ -1,6 +1,6 @@
 """alphinity"""
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 from . import v1 as v1
 from .v1 import encode
