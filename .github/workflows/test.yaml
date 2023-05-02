@@ -4,10 +4,11 @@ on:
   push:
     branches:
       - master
+    tags:
+      - '*'
   pull_request:
     types: [opened, synchronize]
-  tags:
-    - '*'
+
   schedule:
     - cron: '0 0 * * 1'  # weekly
   workflow_dispatch:
